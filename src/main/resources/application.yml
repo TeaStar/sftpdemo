@@ -1,0 +1,7 @@
+
+sftp:
+  username: sshguest
+  password: sftphero
+  hostname: 151.231.203.229
+  workingDir: test
+  port: 22
