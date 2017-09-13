@@ -28,7 +28,6 @@ public class SftpService {
 
     void uploadFile(String filename, InputStream inputStream) {
 
-
         try (SSHClient sshClient = new SSHClient()) {
 
             sshClient.addHostKeyVerifier(new PromiscuousVerifier());
